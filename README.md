@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL](https://github.com/bandianconde/blog-preview-card.git)
-- Live Site URL: [Live site URL](blog-preview-card-5fwyyrkfn-bandiancondes-projects.vercel.app)
+- Live Site URL: [Live site URL](https://blog-preview-card-ten-murex.vercel.app/)
 
 ## My process
 
