@@ -1,0 +1,111 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+.figtree-light {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+.figtree-bold {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+  }
+body {
+    background-color: hsl(47, 88%, 63%);
+}
+
+@media screen and (min-width: 330px) and (max-width: 375px){
+    :root {
+        --main-font-size: 12px;
+    }
+      
+    div#main {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        height: 560px;
+        width: 327px;
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 20px;
+        font-size: var(--main-font-size);
+        box-shadow: 10px 10px 0px hsl(0, 0%, 7%);    
+        margin-bottom: 20px;
+
+    }
+
+}
+
+
+@media screen and (min-width: 375px){
+    :root {
+        --main-font-size: 16px;
+    }
+    div#main {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        height: 560px;
+        width: 356px;
+        min-width: 356px;
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 20px;
+        font-size: var(--main-font-size);
+        box-shadow: 10px 10px 0px hsl(0, 0%, 7%);    
+        margin-bottom: 20px;
+    }
+}
+h1 {
+    color: hsl(0, 0%, 7%);
+    background-color: hsl(47, 88%, 63%);
+    display: inline;
+    padding: 4px 12px;
+    font-size: var(--main-font-size);
+    border-radius: 4px;
+    margin-bottom: 12px;
+}
+
+div#image {
+    margin: 24px;
+    border-radius: 10px;
+    background-image: url("./assets/images/illustration-article.svg");
+    background-image: no-repeat;
+    height: 200px;
+    background-size: cover;
+
+}
+
+div#description {
+    padding: 24px;
+}
+span#avatar {
+    background-image: url("./assets/images/image-avatar.webp");
+    background-size: 32px 32px;
+    height: 32px;
+    width: 32px;
+    display: inline-block;
+
+}
+div#footer {
+    height: 32px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-right: 24px;
+    margin-left: 24px;
+
+}
+
+h2 {
+    margin-top: 12px;
+    margin-bottom: 12px
+}
+
+h2:hover {
+    color: hsl(47, 88%, 63%);
+    cursor: grab;
+}
